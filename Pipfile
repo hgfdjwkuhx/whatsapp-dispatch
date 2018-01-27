@@ -11,3 +11,10 @@ name = "pypi"
 
 [packages]
 
+python-dateutil = "*"
+protobuf = "*"
+pycrypto = "*"
+"python-axolotl-curve25519" = "*"
+pillow = "*"
+argparse = "*"
+"yowsup2" = "*"
