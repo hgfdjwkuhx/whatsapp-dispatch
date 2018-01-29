@@ -20,5 +20,5 @@ class YowsupEchoStack(object):
         try:
             self.stack.loop()
         except AuthError as e:
-            print("Authentication Error: %s" % e.message)
+            print("Authentication Error: %s" % e)
 
