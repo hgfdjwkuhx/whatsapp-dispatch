@@ -1,20 +1,20 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "43f6b7817a748e97f33a0f864889149f81077a3ca254430040d1416baffd00bc"
+            "sha256": "6b6bba419c828c5c6e0c972efa4820bb12828ee64f19765f04dc789b23b45f1d"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "0",
+            "implementation_version": "3.6.3",
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
             "platform_release": "4.13.0-32-generic",
             "platform_system": "Linux",
             "platform_version": "#35-Ubuntu SMP Thu Jan 25 09:13:46 UTC 2018",
-            "python_full_version": "2.7.14",
-            "python_version": "2.7",
-            "sys_platform": "linux2"
+            "python_full_version": "3.6.3",
+            "python_version": "3.6",
+            "sys_platform": "linux"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -27,6 +27,9 @@
         ]
     },
     "default": {
+        "291fcec": {
+            "path": "./yowsup"
+        },
         "argparse": {
             "hashes": [
                 "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314",
@@ -99,13 +102,6 @@
             ],
             "version": "==2.6.1"
         },
-        "python-axolotl": {
-            "hashes": [
-                "sha256:603c605d721a907333273d7e742c45d68e29918610953bae2570b40095e4eada",
-                "sha256:9af9c937d0d05ebea414f1be79ecc7517cc3541a77101941e6a2a71bdd2b6e25"
-            ],
-            "version": "==0.1.39"
-        },
         "python-axolotl-curve25519": {
             "hashes": [
                 "sha256:c559f6a5bf51e869325b36bd83c14cccd7dec1c6e7599e797f9ba27a72d339c0"
@@ -121,17 +117,10 @@
         },
         "six": {
             "hashes": [
-                "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
-                "sha256:105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a"
+                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
+                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
             ],
-            "version": "==1.10.0"
-        },
-        "yowsup2": {
-            "hashes": [
-                "sha256:17c77794f5ed447a54b885e6b6ab82c56a3299496414e7bc0208cc054ae492b2",
-                "sha256:c6ae78d051af97c3b512667d97770eeb2cf641fcfc8777b4b2e1ca2a8e470ac9"
-            ],
-            "version": "==2.5.7"
+            "version": "==1.11.0"
         }
     },
     "develop": {}

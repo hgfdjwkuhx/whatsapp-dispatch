@@ -17,4 +17,4 @@ pycrypto = "*"
 "python-axolotl-curve25519" = "*"
 pillow = "*"
 argparse = "*"
-"yowsup2" = "*"
+"291fcec" = {path = "./yowsup"}
