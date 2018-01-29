@@ -1,0 +1,20 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+python-dateutil = "*"
+protobuf = "*"
+pycrypto = "*"
+"python-axolotl-curve25519" = "*"
+pillow = "*"
+argparse = "*"
+"291fcec" = {path = "./yowsup"}
